@@ -14,8 +14,8 @@ public class ResultsPage {
 	private WebDriver driver;
 
 	
-	By serachHeader = By.cssSelector("div#content h1");
-	By productResult = By.cssSelector("div.caption a");
+	private By serachHeader = By.cssSelector("div#content h1");
+	 private By productResult = By.cssSelector("div.caption a");
 	
 	public ResultsPage(WebDriver driver) {
 		this.driver=driver;
